@@ -4,7 +4,8 @@ package com.egs.wogal.interface_test_100;
  * Created by wogal on 6/21/2017.
  */
 
-public class ButtonTwo {
+public class ImageButton {
+
     private OnWidgetClickListerner onWidgetClickListerner;
 
 
@@ -22,4 +23,5 @@ public class ButtonTwo {
     public int getViewId () {
         return 123456;
     }
+
 }

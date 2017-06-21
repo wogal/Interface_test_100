@@ -3,7 +3,7 @@ package com.egs.wogal.interface_test_100;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class MainActivityTwo extends AppCompatActivity {
+public class MainActivityTwo extends AppCompatActivity implements OnWidgetClickListerner{
 
     @Override
     protected void onCreate (Bundle savedInstanceState) {
@@ -12,7 +12,8 @@ public class MainActivityTwo extends AppCompatActivity {
     }
 
 
-    public  void onClick (Object viewId) {
-    }
+    @Override
+    public void onClick (int viewId) {
 
+    }
 }
